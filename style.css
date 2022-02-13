@@ -1,0 +1,96 @@
+* {
+	transition: .2s ease-in-out;
+}
+
+body {
+	background: #000;
+}
+
+div {
+	background: white;
+	width: 100px;
+	height: 100px;
+	margin: 100px auto;
+}
+
+
+/* Mobile S - 320px  */
+@media (min-width: 300px) and (max-width: 320px) {
+	body {background: royalblue;}
+	div {border-radius: 50%;}
+}
+/* Mobile S - 320px END */
+
+
+
+
+
+/* Mobile M - 375px  */
+@media (min-width: 321px) and (max-width: 375px) {
+	body {background: pink;}
+	div {
+		border-radius: 50%;
+		background: black;
+		-webkit-box-shadow: -1px 19px 36px 3px rgba(0,0,0,0.75);
+		-moz-box-shadow: -1px 19px 36px 3px rgba(0,0,0,0.75);
+		box-shadow: -1px 19px 36px 3px rgba(0,0,0,0.75);
+	}
+}
+/* Mobile M - 375px  END */
+
+
+
+/* Mobile L - 425px  */
+@media (min-width: 376px) and (max-width: 425px) {
+	body {background: red;}
+	div {
+		background: yellow;
+		-webkit-box-shadow: -1px 19px 36px 3px rgba(0,0,0,0.75);
+		-moz-box-shadow: -1px 19px 36px 3px rgba(0,0,0,0.75);
+		box-shadow: -1px 19px 36px 3px rgba(0,0,0,0.75);
+	}
+}
+/* Mobile L - 425px  END */
+
+
+
+
+/* Tablet - 768px  */
+@media (min-width: 426px) and (max-width: 768px) {
+	body {background: yellow;}
+	div {
+		border-radius: 50%;
+		background: green;
+		-webkit-box-shadow: -1px 19px 36px 3px rgba(0,0,0,0.75);
+		-moz-box-shadow: -1px 19px 36px 3px rgba(0,0,0,0.75);
+		box-shadow: -1px 19px 36px 3px rgba(0,0,0,0.75);
+	}
+}
+/* Tablet - 768px  END */
+
+
+/* Laptop - 1024px  */
+@media (min-width: 769px) and (max-width: 1024px) {
+	body {background: aqua;}
+	div {
+		border-radius: 50%;
+		background: gold;
+		-webkit-box-shadow: -1px 19px 36px 3px rgba(0,0,0,0.75);
+		-moz-box-shadow: -1px 19px 36px 3px rgba(0,0,0,0.75);
+		box-shadow: -1px 19px 36px 3px rgba(0,0,0,0.75);
+	}
+}
+/* Laptop - 1024px  END */
+
+
+/* Laptop L - 1440px  */
+@media (min-width: 1025px) and (max-width: 1440px) {
+	body {background: blue;}
+	div {
+		background: yellow;
+		-webkit-box-shadow: -1px 19px 36px 3px rgba(0,0,0,0.75);
+		-moz-box-shadow: -1px 19px 36px 3px rgba(0,0,0,0.75);
+		box-shadow: -1px 19px 36px 3px rgba(0,0,0,0.75);
+	}
+}
+/* Laptop L - 1440px END */
